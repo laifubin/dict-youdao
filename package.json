@@ -1,0 +1,31 @@
+{
+  "name": "dict-youdao",
+  "version": "1.0.0",
+  "description": "node dict youdao",
+  "bin": {
+		"dict": "./src/dict"
+	},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laifubin/dict-youdao.git"
+  },
+  "keywords": [
+    "node",
+    "dict",
+    "youdao"
+  ],
+  "author": "lfb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laifubin/dict-youdao/issues"
+  },
+  "homepage": "https://github.com/laifubin/dict-youdao#readme",
+  "dependencies": {
+    "ora": "^3.4.0",
+    "request": "^2.88.2"
+  }
+}
