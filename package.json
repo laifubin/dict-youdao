@@ -1,10 +1,10 @@
 {
   "name": "dict-youdao",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node dict youdao",
   "bin": {
-		"dict": "./src/index.js"
-	},
+    "dict": "./bin/dict"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
