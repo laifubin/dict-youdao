@@ -10,7 +10,7 @@ module.exports = words => {
       }
       const res = JSON.parse(body)
       const { explains, 'uk-phonetic': uk, 'us-phonetic': us } = res.basic || { explains: res.translation }
-      const data = `${ uk ? '英[' + uk + ']' : '' } ${ us ? '美[' + us + ']' : '' } ${ explains.join(' ') }`
+      const data = `${ uk ? '英[' + uk + '] ' : '' }${ us ? '美[' + us + '] ' : '' }${ explains.join('；') }`
       resolve(data)
      })
   })
