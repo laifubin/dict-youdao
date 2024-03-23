@@ -1,6 +1,6 @@
 {
   "name": "dict-youdao",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "node dict youdao",
   "bin": {
     "dict": "./bin/dict"
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/laifubin/dict-youdao#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "ora": "^3.4.0",
     "request": "^2.88.2"
   }
